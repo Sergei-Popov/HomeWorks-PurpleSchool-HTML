@@ -59,7 +59,13 @@ body {
   background-color: #fff;
 }
 
-.form__inouts-group input {
+.form__inputs-group {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+.form__inputs-group input {
   background-color: #F5F5F5;
 }
 
