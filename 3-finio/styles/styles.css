@@ -1,0 +1,143 @@
+.section__tarifs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  gap: 24px;
+}
+
+.section__title {
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.section__description {
+  font-size: 17px;
+  letter-spacing: 0.1px;
+  line-height: 1.4;
+  font-weight: 500;
+  color: #4e5d7c;
+  opacity: 0.5;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: calc(40px - 24px);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 48px 40px;
+  box-shadow: 0px 0px 32px rgba(78, 93, 124, 0.16);
+  border-radius: 8px;
+  max-width: 369px;
+}
+
+.card__primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.card__header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card__benefit {
+  min-height: 29px;
+  padding: 4px 0;
+}
+
+.card__benefit > span {
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 500;
+  padding: 4px 16px;
+  border-radius: 8px;
+  background-color: #1ABC9C;
+  color: var(--color-white);
+}
+
+.card__title {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+}
+
+.card__text {
+  font-size: 17px;
+  line-height: 1.4;
+  font-weight: 500;
+  color: #4e5d7c;
+  opacity: 0.5;
+}
+
+.card__text-primary {
+  color: var(--color-white);
+  opacity: 0.6;
+}
+
+.card__table {
+  border-collapse: collapse;
+}
+
+.card__table > tbody > tr:not(:last-child) {
+  border-bottom: 1px solid #4E5D7C14;
+}
+
+
+.card__table > tbody > tr td {
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 500;
+  padding: 16px 0;
+  letter-spacing: 0.2px;
+  text-wrap: nowrap;
+}
+
+.card__table > tbody > tr > td > span {
+  padding: 8px 16px;
+  text-wrap: nowrap;
+}
+
+.card__table > tbody > tr:last-child > td {
+  padding-bottom: 0;
+}
+
+.card__table > tbody > tr:first-child > td {
+  padding-top: 0;
+}
+
+.td__bordered {
+  background-color: #FFC736;
+  border-radius: 8px;
+  color: var(--color-white);
+}
+
+.card__button {
+  padding: 12px 0;
+  border-radius: 47px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  line-height: 1.4;
+  font-weight: 800;
+  color: var(--color-white);
+  background-color: var(--color-button-primary);
+}
+
+.card__button-primary {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+}
