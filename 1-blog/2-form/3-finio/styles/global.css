@@ -1,0 +1,20 @@
+:root {
+  --color-primary: #357EFE;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-button-primary: #357EFE;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
