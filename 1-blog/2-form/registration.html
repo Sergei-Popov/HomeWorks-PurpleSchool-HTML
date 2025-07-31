@@ -7,63 +7,27 @@
     <title>Регистрация</title>
   </head>
   <body>
-    <form action="#" method="post">
-      <h3 style="font-size: 36px; color: #333; text-align: center">
-        Регистрация
-      </h3>
-      <span
-        style="display: block; font-size: 18px; text-align: center; color: #666"
-        >Уже есть аккаунт? 
-        <a href="#" style="color: #089fe0">Войти</a></span
-      >
-      <div>
+    <form class="form__registration" action="#" method="post">
+      <h3 class="form__title">Регистрация</h3>
+      <span class="form__text">Уже есть аккаунт? <a href="#">Войти</a></span>
+      <div class="form__inputs">
         <input
+          class="form__username"
           type="text"
           name="username"
           id="username"
-          placeholder="Имя пользователя"
-          style="font-size: 16px; color: #333; background-color: #fff"
-        />
-      </div>
-      <input
-        type="text"
-        name="name"
-        id="name"
-        placeholder="Имя"
-        style="font-size: 16px; color: #999; background-color: #f5f5f5"
-      />
-      <input
-        type="text"
-        name="surname"
-        id="surname"
-        placeholder="Фамилия"
-        style="font-size: 16px; color: #333; background-color: #f5f5f5"
-      />
-      <div>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Email"
-          style="font-size: 16px; color: #333; background-color: #f5f5f5"
-        />
-      </div>
-      <button
-        type="submit"
-        style="font-size: 18px; color: #fff; background-color: #089fe0"
-      >
-        Зарегистрироваться
-      </button>
-      <div class="checkbox">
-        <input
-          type="checkbox"
-          name="checkbox"
-          id="checkbox"
-          style="background-color: #f5f5f5"
-        />
-        <label for="checkbox" style="font-size: 14px; color: #666"
-          >Я прочитал и принимаю <a href="#" style="color: #089fe0">Условия использования</a></label
-        >
+          placeholder="Имя пользователя" />
+        <div class="form__inputs-group">
+          <input type="text" name="name" id="name" placeholder="Имя" />
+          <input type="text" name="surname" id="surname" placeholder="Фамилия" />
+        </div>
+        <input type="email" name="email" id="email" placeholder="Email" />
+        <button type="submit">Зарегистрироваться</button>
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox" id="checkbox" />
+          <label for="checkbox">Я прочитал и принимаю
+            <a href="#">Условия использования</a></label>
+        </div>
       </div>
     </form>
   </body>
